@@ -29,15 +29,15 @@ I created this application to:
 
 In the application, responsibility is divided into modules, which are each responsible for individual functions:
 
-- [Main](https://github.com/fomaaq/London-House-App/blob/main/main.py) - the main application module for launching
+- [main](https://github.com/fomaaq/London-House-App/blob/main/main.py) - the main application module for launching
 
 ![main.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/main.png)
 
-- [Controller](https://github.com/fomaaq/London-House-App/blob/main/controller.py) - collecting and preparing data for the response
+- [controller](https://github.com/fomaaq/London-House-App/blob/main/controller.py) - collecting and preparing data for the response
 
 ![controller.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/controller.png)
 
-- [Models](https://github.com/fomaaq/London-House-App/blob/main/models.py) - describing a House model based on a dataclass
+- [models](https://github.com/fomaaq/London-House-App/blob/main/models.py) - describing a House model based on a dataclass
 
 ![models_model.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/models_model.png)
 
@@ -45,11 +45,11 @@ The model also contains a static method for turning the data obtained from the d
 
 ![models_method.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/models_method.png)
 
-- [Request_parser](https://github.com/fomaaq/London-House-App/blob/main/request_parser.py) - parsing data from the user's request and returning it as a defaultdict
+- [request_parser](https://github.com/fomaaq/London-House-App/blob/main/request_parser.py) - parsing data from the user's request and returning it as a defaultdict
 
 ![request_parser.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/request_parser.png)
 
-- [Query_builder](https://github.com/fomaaq/London-House-App/blob/main/query_builder.py) - preparing a query to the database
+- [query_builder](https://github.com/fomaaq/London-House-App/blob/main/query_builder.py) - preparing a query to the database
 
 ![query_builder.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/query_builder.png)
 
@@ -61,7 +61,7 @@ Also in the module there is a function for pagination:
 
 ![query_builder_pagination.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/query_builder_pagination.png)
 
-- [Query_builder_utils](https://github.com/fomaaq/London-House-App/blob/main/query_builder_utils.py) - utilities for generating a query to the database, for example, the following method allows, if a range of values and an exact value are specified in the request at the same time, to form a query to the database only for the exact value:
+- [query_builder_utils](https://github.com/fomaaq/London-House-App/blob/main/query_builder_utils.py) - utilities for generating a query to the database, for example, the following method allows, if a range of values and an exact value are specified in the request at the same time, to form a query to the database only for the exact value:
 
 ![query_builder_utils_range.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/query_builder_utils_range.png)
 
@@ -69,11 +69,11 @@ There are also utilities for generating query strings to the database depending 
 
 ![query_builder_utils_type.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/query_builder_utils_type.png)
 
-- [Connection](https://github.com/fomaaq/London-House-App/blob/main/connection.py) - connects to the database
+- [connection](https://github.com/fomaaq/London-House-App/blob/main/connection.py) - connects to the database
 
 ![connection.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/connection.png)
 
-- [Repository](https://github.com/fomaaq/London-House-App/blob/main/repository.py) - sends a request to the database and returns data in the form of models
+- [repository](https://github.com/fomaaq/London-House-App/blob/main/repository.py) - sends a request to the database and returns data in the form of models
 
 ![repository.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/repository.png)
 
