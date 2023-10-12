@@ -87,11 +87,11 @@ docker-compose up
 
 ## How to use
 
-Go to the following address: localhost:8080/london_houses
+Go to the following address: [localhost:8080/london_houses](localhost:8080/london_houses)
 
 ![full_json.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/full_json.png)
 
-Now you can try to make a query, for example localhost:8080/london_houses?page=7 to go to page 7
+Now you can try to make a query, for example [localhost:8080/london_houses?page=7](localhost:8080/london_houses?page=7) to go to page 7
 
 ![page_7.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/page_7.png)
 
@@ -125,7 +125,7 @@ pagination                : int
 
 Here are example of query result:
 
-localhost:8080/london_houses?max_bedrooms=2&street=street&garden=1
+[localhost:8080/london_houses?max_bedrooms=2&street=street&garden=1](localhost:8080/london_houses?max_bedrooms=2&street=street&garden=1)
 
 ![example_query.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/example_query.png)
 
