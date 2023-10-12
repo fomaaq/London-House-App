@@ -87,11 +87,11 @@ docker-compose up
 
 ## How to use
 
-Go to the following address: [localhost:8080/london_houses](localhost:8080/london_houses)
+Go to the following address: ```localhost:8080/london_houses```
 
 ![full_json.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/full_json.png)
 
-Now you can try to make a query, for example [localhost:8080/london_houses?page=7](localhost:8080/london_houses?page=7) to go to page 7
+Now you can try to make a query, for example ```localhost:8080/london_houses?page=7``` to go to page 7
 
 ![page_7.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/page_7.png)
 
@@ -101,31 +101,39 @@ You can make the following queries to the database:
 bedrooms                  : int
 min_bedrooms              : int
 max_bedrooms              : int
+
 bathrooms                 : int
 min_bathrooms             : int
 max_bathrooms             : int
+
 tenure                    : str
+
 garden                    : int
 min_garden                : int
 max_garden                : int
+
 street                    : str
+
 size_sqft                 : int
 min_size_sqft             : int
 max_size_sqft             : int
+
 price_pounds              : int
 min_price_pounds          : int
 max_price_pounds          : int
+
 nearest_station_name      : str
+
 nearest_station_miles     : int
 min_nearest_station_miles : int
 max_nearest_station_miles : int
+
 postcode_outer            : str
+
 pagination                : int
 ```
 
-Here are example of query result:
-
-[localhost:8080/london_houses?max_bedrooms=2&street=street&garden=1](localhost:8080/london_houses?max_bedrooms=2&street=street&garden=1)
+Here are example of result for query ```localhost:8080/london_houses?max_bedrooms=2&street=street&garden=1```:
 
 ![example_query.png](https://github.com/fomaaq/London-House-App/blob/main/imgs/example_query.png)
 
